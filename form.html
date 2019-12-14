@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        form{
+            margin: auto;
+            padding: 50px;
+            border: 10px solid black;
+        }
+
+        .foc:focus{
+            background: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form action="">
+                Nombres:
+            <input class="foc" type="text" placeholder="Nombres" pattern="[a-z]">
+            <br>
+            Apellidos:
+            <input type="text" placeholder="Apellidos" pattern="[a-z]" pattern=""><br>
+            Edad:
+            <input type="number" name="quantity" min="18" max="80" placeholder="Edad"><br>
+            Sexo:
+            <input type="checkbox">Hombre
+            <input type="checkbox">Mujer<br>
+            DNI:
+            <input type="numb" placeholder="DNI" min="0" maxlength="8"><br>
+            Email:
+            <input type="email" placeholder="Email"><br>
+
+
+
+
+        </form>
+    </section>
+</body>
+</html>
