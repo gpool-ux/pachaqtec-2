@@ -114,19 +114,19 @@
           <h2>Contacto</h2>
           <form>
           <div>
-            <input type="text" placeholder="Nombre" />
+            <input type="text" placeholder="Nombre" required pattern="[A-Za-z]+"/>
           </div>
           <div>
-            <input type="text" placeholder="Apellido" />
+            <input type="text" placeholder="Apellido" required pattern="[A-Za-z]+"/>
           </div>
           <div>
             <input type="text" placeholder="Email" />
           </div>
           <div>
-            <input type="tel" placeholder="Telefono" />
+            <input type="tel" placeholder="Telefono" required pattern="[A-Za-z0-9]+"/>
           </div>
           <div>
-                <textarea name="" id="" cols="70" rows="5" placeholder="Escribir mensaje"></textarea>
+                <textarea  placeholder="Escribir mensaje" required pattern="[A-Za-z]+]"></textarea>
             </div>
             <div>
                     <a href="#">ENVIAR  </a>
