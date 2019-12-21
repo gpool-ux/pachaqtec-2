@@ -203,34 +203,49 @@ h1 {
 }
 
 /*Formulario*/
-
-.form{
-    padding: 50px;
-    position: relative;
+  .contact {
     background-color: #1687A0;
-    
-}
+    height: 510px;
+  }
 
-.form h2{
-    margin: auto;
-    color: white;
+  .contact h2{
     text-align: center;
-}
-
-.form form{
-    margin: auto;
-    padding: 50px;
-}
-
-.form a{
-    position: absolute;
-    background-color: #233451;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-decoration: none;
+    padding:20px;
     color: white;
- left: 390px;
- font-family: arial;
- font-size: 20px;
-}
+  }
+
+    .contact > form {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 700px;
+      margin: 0 auto;
+    }
+
+      .contact > form > input {
+        border: 1px solid #BFBFBF;
+        margin-bottom: 25px;
+        padding: 20px 150px 20px 10px;
+      }
+
+      .contact > form > textarea {
+        border: 1px solid #BFBFBF;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px 10px;
+        color: #8B758B;
+      }
+
+      .contact > form > button {
+        margin: 35px auto 0px;
+        padding: 15px 45px;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: white;
+        background-color: #233451;
+        border: none;
+        cursor: pointer;
+      }
+
+
+
+/* CONTACTO */
